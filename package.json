@@ -1,17 +1,18 @@
 {
   "name": "bank_modern_app",
-  "private": true,
   "version": "0.0.0",
+  "main": "index.html",
   "type": "module",
   "scripts": {
-    "start": "vite build && serve build --listen $PORT",
+    "start": "vite build && serve -s build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "serve": "^14.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
